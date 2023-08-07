@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "backend-app"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+packages = [{include = "backend_app"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+flask-restx = "^1.1.0"
+flask-migrate = "^4.0.4"
+flask-cors = "^4.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
